@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+body{
+ 
+    background-color: #F5BD7A ;
+    color: #8A8383 ; 
+    /*font: bolder 20px ; font-family: 'Smooch Sans', sans-serif;*/
+
+}
+a{
+
+color: #000000;
+text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: #4700AB;
+}
+.ava{
+    width: 200px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 18px 7px rgba(0, 0, 0, 100)
+}
+
+#info {
+  
+}
+#media{
+    color: #4700AB ;
+    font-style: italic;
+    text-shadow: #000000;
+    letter-spacing: 3px;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+@media(700px){
+    .row{
+        display: block;
+        text-align: center;
+    }
+}
+.row img{
+    margin-right: 20px;
+
+}
+.content{
+    
+    max-width: 800px;
+    margin: auto;
+}
+.card a a:active{
+    color: red;
+}
+
+.card{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+.bg-purple{
+   background-color: #D18FFF;
+}
+.bg-green{
+    background-color: #BFFAAC ;
+}
+.bg-red{
+    background-color: #FF9682 ;
+}
+.bg-blue{
+    background-color: #003758;
+}
+.bg-yelow{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+     background-color: #ECF591;
+}
+.img{
+    margin-bottom: 20px;
+}
+.spisk{
+    padding: 0 25px;
+}
+.table{
+    width: 50%;
+    border: #e01111;
+}
+.table td{
+  
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1){
+    color: #5C3EF0;
+}
+.table td:nth-child(2){
+    color: #4154FA ;
+}
+.table td:nth-child(3){
+    color: #4680E3;
+}
+         .table th:nth-child(1){
+          color: #5C3EF0;
+}
+          .table th:nth-child(2){
+                color: #4154FA ;
+}
+               .table th:nth-child(3){
+                    color: #4680E3;
+}
+#my-atch{
+    color: #F000B6;
+}
+.contact h2{
+    text-align: center;
+   
+}
+.contact label{
+    display: block;
+    font-size: 16px;
+    color: #4700AB;
+}
+.contact h2{
+    color: #4700AB ;
+}
+.contact input,
+.contact textarea{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: none ;
+    background: transparent;
+    border-bottom: 2px solid #FAA589 ;
+    color: #4700AB;
+    padding: 10px 0 10px;
+    outline: #FAA589;
+}   
+.row{
+    display: flex;
+    margin-bottom: 15px;
+}
+.row > .form-group:last-child{
+    margin-right: 20px;
+}
+.btn{
+    background: #F5DCB5;
+    border-radius: 20px;
+    padding: 0%;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+}
